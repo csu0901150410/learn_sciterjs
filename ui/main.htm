@@ -1,31 +1,12 @@
-<html 
-   window-width=800px
-   window-height=600px
-   window-resizable=true>
-  <head>
-    <title>Hello</title>
-    <style>
+<html>
 
-      html {
-        background:gold;
-      }
+    <head>
+        <title>Mainwindow</title>
+        <style src="main.css" />
+    </head>
 
-      body {
-        vertical-align:middle;
-        text-align:center;
-      }
+    <body>
+        <hello />
+    </body>
 
-    </style>
-    <script type="text/javascript">
-
-      document.ready = function() {
-        // calling native method defined in main.cpp
-        const thisWindow = Window.this;
-        document.body.innerText = thisWindow.frame.nativeMessage(); 
-      }
-
-    </script>
-  </head>
-  <body>
-  </body>
 </html>

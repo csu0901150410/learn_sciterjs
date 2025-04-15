@@ -1,0 +1,5 @@
+// hello元素附加Hello类的行为
+hello {
+    prototype: Hello url(main.js);
+    display: block;
+}
